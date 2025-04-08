@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning code from GitHub...'
-                git url: 'https://github.com/Bijendar/Elevate-Labs-Inter-Day2.git', branch: 'main'
+                git url: 'https://github.com/Bijendar/Elevate-Labs-Inter-Day2.git', branch: 'main'    // place the application in this repo
                 echo 'Code cloned successfully!'
             }
         }
