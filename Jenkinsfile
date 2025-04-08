@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning code from GitHub...'
-                git url: 'https://github.com/Bijendar/node-demo-app.git', branch: 'main'    
+                git url: 'https://github.com/Bijendar/node-demo-app.git', branch: 'main'  // make sure to place the Jenkinsfile in this repo   
                 echo 'Code cloned successfully!'
             }
         }
